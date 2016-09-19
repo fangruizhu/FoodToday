@@ -103,7 +103,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="friends" width="29" height="30"/>
+        <image name="friends" width="30" height="30"/>
         <image name="reports" width="30" height="30"/>
     </resources>
 </document>
