@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F03F3361D90CE190073F09F /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F03F3351D90CE190073F09F /* RecentViewController.swift */; };
+		2F4D4DAB1D90B38C00B45356 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D4DAA1D90B38C00B45356 /* AccountViewController.swift */; };
 		2FA4E5171D90A10000FC4603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA4E5161D90A10000FC4603 /* AppDelegate.swift */; };
 		2FA4E5191D90A10000FC4603 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA4E5181D90A10000FC4603 /* FirstViewController.swift */; };
 		2FA4E51B1D90A10000FC4603 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA4E51A1D90A10000FC4603 /* SecondViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F03F3351D90CE190073F09F /* RecentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
+		2F4D4DAA1D90B38C00B45356 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		2FA4E5131D90A10000FC4603 /* FoodToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA4E5161D90A10000FC4603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FA4E5181D90A10000FC4603 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				2FA4E5161D90A10000FC4603 /* AppDelegate.swift */,
 				2FA4E5181D90A10000FC4603 /* FirstViewController.swift */,
 				2FA4E51A1D90A10000FC4603 /* SecondViewController.swift */,
+				2F4D4DAA1D90B38C00B45356 /* AccountViewController.swift */,
+				2F03F3351D90CE190073F09F /* RecentViewController.swift */,
 				2FA4E51C1D90A10000FC4603 /* Main.storyboard */,
 				2FA4E51F1D90A10000FC4603 /* Assets.xcassets */,
 				2FA4E5211D90A10000FC4603 /* LaunchScreen.storyboard */,
@@ -267,7 +273,9 @@
 			files = (
 				2FA4E51B1D90A10000FC4603 /* SecondViewController.swift in Sources */,
 				2FA4E5171D90A10000FC4603 /* AppDelegate.swift in Sources */,
+				2F4D4DAB1D90B38C00B45356 /* AccountViewController.swift in Sources */,
 				2FA4E5191D90A10000FC4603 /* FirstViewController.swift in Sources */,
+				2F03F3361D90CE190073F09F /* RecentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +524,7 @@
 				2FA4E53F1D90A10000FC4603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FA4E5401D90A10000FC4603 /* Build configuration list for PBXNativeTarget "FoodTodayTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +533,7 @@
 				2FA4E5421D90A10000FC4603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FA4E5431D90A10000FC4603 /* Build configuration list for PBXNativeTarget "FoodTodayUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				2FA4E5451D90A10000FC4603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
